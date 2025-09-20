@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Video Player</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="player-wrap">
+      <aside class="thumbs" id="thumbs"></aside>
+
+      <main class="player">
+        <div class="video-frame" id="videoFrame">
+          <video id="mainVideo" controls preload="metadata">
+            <source id="videoSource" src="" type="video/mp4" />
+            Your browser does not support the video tag.
+          </video>
+        </div>
+
+        <div class="info">
+          <div>
+            <div class="title" id="videoTitle">-</div>
+            <div class="meta-row" id="videoMeta">
+              <span id="videoDuration">-</span> •
+              <span id="videoViews">-</span> •
+              <span id="videoDate">-</span>
+            </div>
+          </div>
+          <div class="controls">
+            <button class="ctrl" id="prevBtn">◀ Previous</button>
+            <button class="ctrl" id="nextBtn">Next ▶</button>
+          </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
