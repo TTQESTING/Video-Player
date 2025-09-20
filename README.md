@@ -17,8 +17,7 @@ It features a dynamic playlist, local view counters, and a clean YouTube-like UI
 ---
 
 ## 🖼 Preview
-![screenshot](thumbnails/video_1.jpg)  
-*(Replace with your own screenshot or demo GIF)*
+![screenshot](blob:https://imgur.com/70646d88-48fc-41a1-b24a-61732025a8de)  
 
 ---
 
